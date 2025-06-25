@@ -12,7 +12,7 @@ Reddit provides a vast amount of user-generated content, free from paid promotio
 - Collects ~9,800 Reddit comments about women’s fashion brands with PRAW (Reddit API) and saves them in a simple CSV (`brand` + `text`).
 - Runs two sentiment analyses:
   - **TextBlob (open-source)** for basic positive/negative and subjective/objective scores  
-  - **Google Cloud NLP (cloud-powered)** for refined sentiment score and intensity
+  - **Google Cloud NLP (cloud)** for refined sentiment score and intensity
 - Compares both methods to see which gives a clearer picture of customer opinions.
 - Creates clear, easy-to-read charts with Matplotlib.
 
