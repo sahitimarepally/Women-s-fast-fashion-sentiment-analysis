@@ -26,6 +26,7 @@ Reddit provides a vast amount of user-generated content, free from paid promotio
 
 
 **Analysis Comparison**
+
 I compared TextBlob and Google Natural Language API because they take different approaches to understanding language. TextBlob is fast and easy to use, but relies on simpler rules and dictionaries, whereas Google NLP leverages machine learning and provides more nuanced sentiment detection.
 There was a noticeable difference in the way the two tools recognized tone when I tested them on the same texts. TextBlob classified the majority of texts as positive or neutral, while the Google Natural Language API detected a higher number of negative sentiments
 
