@@ -9,12 +9,12 @@ Reddit provides a vast amount of user-generated content, free from paid promotio
 
 **Features**
 
-- Extracted approximately 9,800 Reddit comments using the Reddit API (PRAW) and saved them in CSV format (brand, text).
+- Extracted approximately 9,800 Reddit comments using the Reddit API (PRAW).
 - Applied two sentiment analysis methods:
-    - **TextBlob**: For basic polarity and subjectivity scoring.
-    - **Google Cloud Natural Language API**: For more advanced sentiment and magnitude scoring.
-- Compared results from both methods to identify discrepancies and draw insights about accuracy and tone detection.
-- Visualized key findings with Matplotlib charts.
+    - **TextBlob**: for basic polarity and subjectivity scoring.
+    - **Google Cloud Natural Language API**: for refined sentiment and magnitude scoring.
+- Compared both methods to see which gives a clearer picture of customer opinions.
+- Visualised clear, easy-to-read charts with Matplotlib.
 
 
 
@@ -28,7 +28,7 @@ Reddit provides a vast amount of user-generated content, free from paid promotio
 **Analysis Comparison**
 
 I compared TextBlob and Google Natural Language API because they take different approaches to understanding language. TextBlob is fast and easy to use, but relies on simpler rules and dictionaries, whereas Google NLP leverages machine learning and provides more nuanced sentiment detection.
-There was a noticeable difference in the way the two tools recognized tone when I tested them on the same texts. TextBlob classified the majority of texts as positive or neutral, while the Google Natural Language API detected a higher number of negative sentiments
+We can observe a noticeable difference in the results when I tested them on the same texts. TextBlob classified the majority of texts as positive or neutral, while the Google Natural Language API detected a higher number of negative sentiments
 
 | Method         | Brand | Text                                                                                                                                                                                                                                                                              | Sentiment |
 |----------------|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
