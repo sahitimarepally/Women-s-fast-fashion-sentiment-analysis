@@ -32,6 +32,9 @@ There was a noticeable difference in the way the two tools recognized tone when 
 | Method         | Brand | Text                                                                                                                                                                                                                                                                              | Sentiment |
 |----------------|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
 | TextBlob       | Zara  | 1 - stores like Aritzia and Zara tend to be trendier.<br><br>2 - people delude themselves into thinking that by buying through Aritzia and Zara it is somehow more 'ethical' than H&M. There's probably also a feedback loop into this one where I notice cheaper brands get downvoted more. Again, this false sense of sustainability. | positive  |
-| Google NL API  | Zara  | 1 - stores like Aritzia and Zara tend to be trendier.<br><br>2 - people delude themselves into thinking that by buying through Aritzia and Zara it is somehow more 'ethical' than H&M. There's probably also a feedback loop into this one where I notice cheaper brands get downvoted more. Again, this false sense of sustainability. | negative  |
+| Google NL API  | Zara  | 1 - stores like Aritzia and Zara tend to be trendier.<br><br>2 - people delude themselves into thinking that by buying through Aritzia and Zara it is somehow more 'ethical' than H&M. There's probably also a feedback loop into this one where I notice cheaper brands get downvoted more. Again, this false sense of sustainability. | negative  |<br>
+
+
+
 In this case, we can see that Google’s tool picked up on the criticism, while TextBlob missed it, which shows that Google’s API provides a more accurate reading of complex language.
 
